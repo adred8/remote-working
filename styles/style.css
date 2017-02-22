@@ -1,0 +1,175 @@
+/**{
+  outline: 1px solid green;
+}*/
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container{
+  font-family: 'Raleway', sans-serif;
+  background-color:#e6f2ff;
+}
+.main{
+  /*max-height: 960px;
+  max-width: 540px;*/
+  height: 512px;
+  width: 288px;
+  margin: 5% auto;
+  /*height: 44%;*/
+  background-color: white;
+  box-shadow: 1px 1px 40px #888888;
+}
+.header{
+  height: 25%;
+  background-image: url(https://placeimg.com/640/480/tech);
+  position: relative;
+}
+
+.apple-stuff-icon{
+  width: 18px;
+  height: 13px;
+  position: absolute;
+  left: 6px;
+  top: 4px;
+}
+.time{
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  left: 70px;
+  top:0;
+  color: white;
+  font-size:10px;
+  font-weight: 400;
+}
+.battery-icon{
+  width: 28px;
+  height: 20px;
+  position: absolute;
+  right: 3px;
+  top: 0;
+}
+.app-header{
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left : 10px;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+.nav-header{
+  position: absolute;
+  top:33%;
+}
+.back-button{
+  width: 22px;
+  height:22px;
+  position: absolute;
+  left: 15px;
+}
+.menu-button{
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 15px;
+}
+.action-button-header{
+  width:48px;
+  height:48px;
+  position: absolute;
+  right: 8px;
+  bottom:-23px;
+  cursor: pointer;
+}
+.app-section{
+  height: 70%;
+  margin : 5%;
+}
+input{
+  margin-left: 25%;
+  margin-top: 20%;
+}
+.today-section{
+  height:40%;
+  /*margin : 5%;*/
+}
+.iphone{
+  width:24px;
+  height: 24px;
+}
+.paint{
+  width:24px;
+  height: 24px;
+}
+.window{
+  width:24px;
+  height: 24px;
+}
+.email{
+  width:24px;
+  height: 24px;
+}
+.bin{
+  width:22px;
+  height: 22px;
+  padding-left: 17px;
+}
+.gold-star{
+  width:22px;
+  height: 22px;
+  cursor: pointer;
+}
+.grey-star{
+  width:24px;
+  height: 24px;
+  cursor: pointer;
+}
+hr{
+  color:lightgrey;
+}
+.tomorrow-section{
+  height:60%;
+  /*margin : 5%;*/
+}
+.tomorrow-head{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.today-head{
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+.today-head, .tomorrow-head{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.check-box{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 20%;
+}
+.task-item, .deleted-task-item{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 20%;
+}
+.task-item{
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+.task-status{
+  cursor: pointer;
+}
+.deleted-task-item{
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  text-decoration: line-through;
+}
+.sub-task-item, .today-head, .tomorrow-head, .deleted-task-item{
+  color: grey;
+}

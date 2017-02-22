@@ -1,0 +1,17 @@
+*{
+  outline: 1px solid green;
+}
+.container{
+  font-family : 'Open Sans', sans-serif;
+  background-color:#e6f2ff;
+}
+.main{
+  max-height: 480px;
+  max-width: 270px;
+  margin: 5% auto;
+  height: 44%;
+  width:
+}
+.header{
+
+}
